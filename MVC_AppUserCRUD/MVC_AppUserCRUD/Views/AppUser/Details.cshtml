@@ -1,0 +1,23 @@
+﻿@model MVC_AppUserCRUD.Models.AppUser
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div> 
+        <ul>
+            <li>@Model.Id</li>
+            <li>@Model.UserName</li>
+            <li>@Model.FirstName</li>
+            <li>@Model.LastName</li>
+            <li>@Model.Email</li>
+            <li>@Model.Password</li>
+        </ul>
+    </div>
+</body>
+</html>

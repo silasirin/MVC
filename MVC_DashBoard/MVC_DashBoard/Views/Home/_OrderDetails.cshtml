@@ -1,0 +1,19 @@
+﻿@model MVC_DashBoard.Models.Order
+@{
+    ViewBag.Title = "_OrderDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-striped mt-2">
+    <tbody>
+        <tr>
+            <td>@Model.OrderID</td>
+            <td>@Model.EmployeeID</td>
+            <td>@Model.CustomerID</td>
+            <td>@Model.OrderDate</td>
+            <td>@Model.ShipAddress</td>
+            <td>@Model.ShipCountry</td>
+        </tr>
+    </tbody>
+</table>
+
